@@ -1,0 +1,30 @@
+Docker
+
+1- What are containers?
+
+completely isolated env, their own process or services and their own network interface and all share the same os kernel
+
+os kernel is reposible for interacting with the underlying hw
+
+the main purpose of docker is to package and containerize app and to ship them and run them anywhere any time as many times as you want 
+docker containers takes minutes to boot up
+whereas VMs take time as it boot up the entire system 
+2- What is docker ?
+3- Why do you need it ?
+
+set up end to end all stack, we need to set up diff services 
+the compatibility with the underlying os was an issue we have to ensure that all this services were compatible the os version 
+the compatibility between these services and the libraries and dependencies on the os 
+one service requires one version of a dependent library whereas another service requires another version
+app version changes over time 
+long setup time - diff env 
+we can't guarantee that the app that we are building will run the same way in diff anv
+we need something that allow us to change the components without affecting the other components and even modify the underlying system as required 
+ 
+4- What can it do ?
+with docker we run each component in a seperate container with its own dependencies and its own lib 
+5- Run docker containers
+6- Create a Docker image
+
+
+
